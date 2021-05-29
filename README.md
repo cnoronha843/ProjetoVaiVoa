@@ -29,7 +29,7 @@ Atualizar o launchUrl:
 
 </h3>
 
-No Properties\launchSettings.jsno, launchUrl atualize de para "swagger" "api/CartaoVirtual"
+- No Properties\launchSettings.jsno, launchUrl atualize de para "swagger" "api/CartaoVirtual"
 
 - No Gerenciador de Soluções, clique com o botão direito do mouse no projeto. Selecione Adicionar > Nova Pasta. Nomeia a pasta Models .
 
