@@ -6,3 +6,5 @@ Artigo sobre API REST que fornece um sistema de geração de número de cartão 
 
 </h3>
 
+![PRINTS](./imagem/architecture.jpg)
+
