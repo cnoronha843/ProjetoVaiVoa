@@ -19,19 +19,22 @@ Nomeie o projeto como ApiCartaoVirtual e clique em Criar.
 
 ![PRINTS](./imagem/nomeProjeto.png)
 
--  Na caixa de diálogo criar um novo ASP.NET Core aplicativo Web , confirme se o .net Core e ASP.NET Core 5,0 estão selecionados. Selecione o modelo API e clique em Criar.
+- Na caixa de diálogo criar um novo ASP.NET Core aplicativo Web , confirme se o .net Core e ASP.NET Core 5,0 estão selecionados. Selecione o modelo API e clique em Criar.
 
 ![PRINTS](./imagem/InfAdds.png)
 
 <h3>
 Atualizar o launchUrl:
-No Properties\launchSettings.jsno, launchUrl atualize de para "swagger" "api/CartaoVirtual" :
+
 
 </h3>
+
+No Properties\launchSettings.jsno, launchUrl atualize de para "swagger" "api/CartaoVirtual"
 
 - No Gerenciador de Soluções, clique com o botão direito do mouse no projeto. Selecione Adicionar > Nova Pasta. Nomeia a pasta Models .
 
 ![PRINTS](./imagem/addModels.png)
+
 - Clique com o botão direito Models do mouse na pasta e selecione Adicionar > Classe. Dê à classe o nome Cartao e selecione Adicionar.
 
 
@@ -42,15 +45,15 @@ No Properties\launchSettings.jsno, launchUrl atualize de para "swagger" "api/Car
 Adicionar um contexto de banco de dados
 </h3>
 
- - No menu Ferramentas, selecione Gerenciador de Pacotes do NuGet > Gerenciar Pacotes do NuGet para a Solução.
+- No menu Ferramentas, selecione Gerenciador de Pacotes do NuGet > Gerenciar Pacotes do NuGet para a Solução.
 
 ![PRINTS](./imagem/addBdNuGet.png)
 
- - Selecione a guia procurar e, em seguida, insira Microsoft.EntityFrameworkCore.InMemory na caixa de pesquisa.
+- Selecione a guia procurar e, em seguida, insira Microsoft.EntityFrameworkCore.InMemory na caixa de pesquisa.
 
 ![PRINTS](./imagem/InstallEF.png)
- - Selecione Microsoft.EntityFrameworkCore.InMemory no painel esquerdo.
- - Marque a caixa de seleção projeto no painel direito e, em seguida, selecione instalar
+- Selecione Microsoft.EntityFrameworkCore.InMemory no painel esquerdo.
+- Marque a caixa de seleção projeto no painel direito e, em seguida, selecione instalar
 
 
  - Clique com o botão direito do mouse na Models pasta e selecione Adicionar > classe. Nomeie a classe como TodoContext e clique em Adicionar.
@@ -68,7 +71,7 @@ Faça scaffold de um controlador
 </h3>
 - Clique com o botão direito do mouse na pasta Controllers.
 
- - Selecione Adicionar > Novo item com scaffold.
+- Selecione Adicionar > Novo item com scaffold.
 
 - Selecione Controlador de API com ações, usando o Entity Framework e, em seguida, selecione Adicionar.
 
@@ -117,9 +120,19 @@ No corpo da solicitação, insira JSON para um item pendente:
 
 {
     
-    "Email":"carlosanoronha@hotmail.com"
+    "Email":"exemplo@exemplo.com"
     
   }
+ 
+ A saída deverá ser igual a imagem abaixo:
+ 
+![image](https://user-images.githubusercontent.com/47434583/120056542-4fc2a500-c013-11eb-81c5-be0e45f8f75f.png)
+ 
+ - Para listar os cartoes, selecione o metodo GET e clique em enviar:
+
+ ![image](https://user-images.githubusercontent.com/47434583/120056626-e2634400-c013-11eb-8156-f60be413a381.png).
+ 
+ 
 
   
   
