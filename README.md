@@ -56,7 +56,7 @@ Adicionar um contexto de banco de dados
 - Marque a caixa de seleção projeto no painel direito e, em seguida, selecione instalar
 
 
- - Clique com o botão direito do mouse na Models pasta e selecione Adicionar > classe. Nomeie a classe como TodoContext e clique em Adicionar.
+ - Clique com o botão direito do mouse na Models pasta e selecione Adicionar > classe. Nomeie a classe como ApiCartaoVirtualContext e clique em Adicionar.
 ![PRINTS](./imagem/classContext.png)
 
 Registrar o contexto do banco de dados
@@ -77,8 +77,8 @@ Faça scaffold de um controlador
 
 - Na caixa de diálogo Adicionar Controlador de API com ações, usando o Entity Framework:
 
-- Selecione Cartao (Cartao. Models ) na classe Model.
-- Selecione ApiCartaoVirtualContext (TodoApi. Models ) na classe de contexto de dados.
+- Selecione Cartao (ApiCartaoVirtual. Models ) na classe Model.
+- Selecione ApiCartaoVirtualContext (ApiCartaoVirtual. Models ) na classe de contexto de dados.
 - Selecione Adicionar.
 
 ![PRINTS](./imagem/CriandoScafold.png)
